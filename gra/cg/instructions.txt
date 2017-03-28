@@ -1,0 +1,21 @@
+sudo apt-get install freeglut3-dev
+g++ main.c -lglut -lGL -lGLEW -lGLU -o OpenGLExample
+./OpenGLExample
+
+javac filename.java
+
+<html>
+<head>
+<title>Hello World by Your Name</title>
+</head>
+<body>
+
+<applet code="HelloWorld.class" width=300 height=200>
+</applet>
+
+</body>
+</html>
+
+appletviewer HelloWorld.html
+
+system("wget https://www.google.com");
